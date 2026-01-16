@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/main/assest/logo.png" alt="CONTRABUSTER Logo" width="200">
+  <img src="/main/assest/logo.png" alt="CONTRABUSTER Logo" width="400">
 </p>
 
 <h1 align="center">ＣＯＮＴＲＡＢＵＳＴＥＲ</h1>
@@ -28,9 +28,6 @@
   <a href="#Contributing">Contributing</a>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xtawb/CONTRABUSTER/main/assets/demo.gif" alt="CONTRABUSTER Demo" width="800">
-</p>
 
 ## Overview
 
