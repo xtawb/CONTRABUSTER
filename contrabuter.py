@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-███████╗███████╗██████╗ ███████╗██████╗ ███████╗██████╗ ████████╗███████╗██████╗ 
-██╔════╝██╔════╝██╔══██╗██╔════╝██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██╔════╝██╔══██╗
-███████╗█████╗  ██████╔╝█████╗  ██████╔╝█████╗  ██████╔╝   ██║   █████╗  ██████╔╝
-╚════██║██╔══╝  ██╔══██╗██╔══╝  ██╔══██╗██╔══╝  ██╔══██╗   ██║   ██╔══╝  ██╔══██╗
-███████║███████╗██║  ██║███████╗██║  ██║███████╗██║  ██║   ██║   ███████╗██║  ██║
-╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+                                                                                         
+                                                                                         
+▄█████ ▄████▄ ███  ██ ██████ █████▄  ▄████▄ █████▄ ██  ██ ▄█████ ██████ ██████ █████▄    
+██     ██  ██ ██ ▀▄██   ██   ██▄▄██▄ ██▄▄██ ██▄▄██ ██  ██ ▀▀▀▄▄▄   ██   ██▄▄   ██▄▄██▄   
+▀█████ ▀████▀ ██   ██   ██   ██   ██ ██  ██ ██▄▄█▀ ▀████▀ █████▀   ██   ██▄▄▄▄ ██   ██   
+                                                                                         
                         Advanced Container Intelligence Scanner
 """
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __author__ = "xtawb"
 __contact__ = "https://linktr.ee/xtawb"
 
@@ -106,8 +106,8 @@ class UpdateManager:
     """Automatic update system for CONTRABUSTER"""
     
     # Official repository information
-    REPO_URL = "https://api.github.com/repos/xtawb/contrabuster/releases/latest"
-    RAW_BASE = "https://raw.githubusercontent.com/xtawb/contrabuster/main/"
+    REPO_URL = "https://api.github.com/repos/xtawb/CONTRABUSTER/releases/latest"
+    RAW_BASE = "https://raw.githubusercontent.com/xtawb/CONTRABUSTER/main/"
     
     @staticmethod
     def check_for_updates(current_version: str) -> Optional[Dict]:
@@ -223,7 +223,7 @@ class Branding:
     @staticmethod
     def print_banner():
         """Display CONTRABUSTER banner"""
-        banner = f"""
+        banner = rf"""
 {Colors.BANNER}{Colors.BOLD}
    _____ ____  _   _ _______ _____            ____  _    _  _____ _______ ______ _____  
   / ____/ __ \| \ | |__   __|  __ \     /\   |  _ \| |  | |/ ____|__   __|  ____|  __ \ 

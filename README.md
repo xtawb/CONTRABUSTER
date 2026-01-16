@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/img/logo.png" alt="CONTRABUSTER Logo" width="200">
+  <img src="/main/assest/logo.png" alt="CONTRABUSTER Logo" width="200">
 </p>
 
 <h1 align="center">ＣＯＮＴＲＡＢＵＳＴＥＲ</h1>
@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white" alt="Python Version">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/Version-1.0.1-red" alt="Version">
+  <img src="https://img.shields.io/badge/Version-1.0.2-red" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey" alt="Platform">
   <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen" alt="Status">
 </p>
@@ -121,8 +121,15 @@ source venv/bin/activate
 # On Windows:
 venv\Scripts\activate
 
+
 # Install dependencies
-pip install -r requirements.txt
+ # Basic Installation
+ pip install -r requirements.txt
+# For development
+ pip install -r requirements/dev.txt
+# For production 
+ pip install -r requirements/prod.txt 
+ 
 
 # Run the tool
 python3 contrabuster.py --help
@@ -142,7 +149,7 @@ contrabuster --help
 ```bash
 # Test installation
 python3 contrabuster.py --version
-# Output: CONTRABUSTER v1.0.1
+# Output: CONTRABUSTER v1.0.2
 
 # Check for updates
 python3 contrabuster.py --check-update
@@ -320,7 +327,7 @@ CRITICAL SEVERITY FINDINGS (2)
   "metadata": {
     "generated_at": "2025-01-16T10:30:00",
     "tool": "CONTRABUSTER - Advanced Container Intelligence Scanner",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "developer": "xtawb",
     "contact": "https://linktr.ee/xtawb"
   },
