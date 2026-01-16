@@ -1338,7 +1338,7 @@ class CLIInterface:
         elapsed = time.time() - stats.start_time
         
         print(f"\n{Colors.HEADER}{Colors.BOLD}╔══════════════════════════════════════════════════════════════╗{Colors.RESET}")
-        print(f"{Colors.HEADER}{Colors.BOLD}║                        SCAN SUMMARY                           ║{Colors.RESET}")
+        print(f"{Colors.HEADER}{Colors.BOLD}║                         SCAN SUMMARY                         ║{Colors.RESET}")
         print(f"{Colors.HEADER}{Colors.BOLD}╚══════════════════════════════════════════════════════════════╝{Colors.RESET}")
         
         print(f"\n{Colors.INFO}Files Discovered:{Colors.RESET} {Colors.TEXT}{stats.total_files}{Colors.RESET}")
