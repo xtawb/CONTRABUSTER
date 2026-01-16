@@ -9,7 +9,7 @@
                         Advanced Container Intelligence Scanner
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __author__ = "xtawb"
 __contact__ = "https://linktr.ee/xtawb"
 

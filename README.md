@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/ksQFTc05/20260115-2155-Image-Generation-simple-compose-01kf2nxbxaftwb8yzj5czje5fk.png" alt="CONTRABUSTER Logo" width="200">
+  <img src="https://i.ibb.co/XZgjv5my/CONTRIBUTING.png" alt="CONTRABUSTER Logo" width="200">
 </p>
 
 <h1 align="center">ＣＯＮＴＲＡＢＵＳＴＥＲ</h1>
