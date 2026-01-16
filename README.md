@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/XZgjv5my/CONTRIBUTING.png" alt="CONTRABUSTER Logo" width="200">
+  <img src="/img/logo.png" alt="CONTRABUSTER Logo" width="200">
 </p>
 
 <h1 align="center">ＣＯＮＴＲＡＢＵＳＴＥＲ</h1>
@@ -19,21 +19,20 @@
 </p>
 
 <p align="center">
-  <a href="#overview">Overview</a> •
-  <a href="#key-features">Features</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#examples">Examples</a> •
-  <a href="#technical-architecture">Architecture</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a>
+  <a href="#Overview">Overview</a> •
+  <a href="#Key Features">Features</a> •
+  <a href="#Installation">Installation</a> •
+  <a href="#Usage">Usage</a> •
+  <a href="#Practical Examples">Examples</a> •
+  <a href="#Technical Architecture">Architecture</a> •
+  <a href="#Contributing">Contributing</a> •
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xtawb/CONTRABUSTER/main/assets/demo.gif" alt="CONTRABUSTER Demo" width="800">
 </p>
 
-## 📋 Overview
+## Overview
 
 **CONTRABUSTER** is an elite security reconnaissance tool designed for professional bug bounty hunters, penetration testers, and security researchers. It performs deep, intelligent analysis of public containers, CDNs, and directory listings to uncover:
 
@@ -48,7 +47,7 @@ Unlike traditional scanners, CONTRABUSTER combines:
 - **Context-Aware Pattern Matching** (reduced false positives)
 - **Attack Scenario Generation** (multi-step exploitation paths)
 
-## ✨ Key Features
+## Key Features
 
 ### 🔍 **Advanced Discovery Engine**
 - **Recursive Directory Scanning** - Fully automated directory traversal
@@ -86,7 +85,7 @@ Unlike traditional scanners, CONTRABUSTER combines:
 - **Changelog Display** - What's new in each update
 - **User Consent** - Always asks before updating
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -149,7 +148,7 @@ python3 contrabuster.py --version
 python3 contrabuster.py --check-update
 ```
 
-## 📖 Usage
+## Usage
 
 ### Basic Scanning
 ```bash
@@ -208,7 +207,7 @@ python3 contrabuster.py -u https://target.com/ --html-only -o report
 python3 contrabuster.py -u https://target.com/ --min-severity HIGH
 ```
 
-## 🎯 Practical Examples
+## Practical Examples
 
 ### Example 1: Bug Bounty Reconnaissance
 ```bash
@@ -350,7 +349,7 @@ CRITICAL SEVERITY FINDINGS (2)
 ### HTML Report Preview
 ![HTML Report](https://raw.githubusercontent.com/xtawb/CONTRABUSTER/main/assets/html_report.png)
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ```mermaid
 graph TB
@@ -452,7 +451,7 @@ graph TB
 - **Legal Warnings** - Clear disclaimer at startup
 - **Responsible Disclosure** - Encouraged in all findings
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from the security community! Here's how you can help:
 
