@@ -20,11 +20,11 @@
 
 <p align="center">
   <a href="#Overview">Overview</a> •
-  <a href="#Features">Key Features</a> •
+  <a href="#Key-Features">Key Features</a> •
   <a href="#Installation">Installation</a> •
   <a href="#Usage">Usage</a> •
-  <a href="#Examples">Practical Examples</a> •
-  <a href="#Architecture">Technical Architecture</a> •
+  <a href="#Practical-Examples">Practical Examples</a> •
+  <a href="#Technical-Architecture">Technical Architecture</a> •
   <a href="#Contributing">Contributing</a>
 </p>
 
